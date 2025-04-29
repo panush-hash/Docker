@@ -1,4 +1,4 @@
-FROM ubantu
+FROM ubuntu
 MAINTAINER name panush
 LABEL  this is first docker file
 EXPOSE 80
