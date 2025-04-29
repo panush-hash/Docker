@@ -1,5 +1,5 @@
 FROM ubantu
-Maintainer name panush
+MAINTAINER name panush
 LABEL  this is first docker file
-run apt update -y
-run apt install tree -y
+EXPOSE 80
+ADD . .
